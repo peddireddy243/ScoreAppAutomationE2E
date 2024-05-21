@@ -25,4 +25,50 @@ public class ChooseFavouriteLeaguePage extends BaseObjects {
         super();
     }
 
+
+    public boolean isChooseYourFavouriteLeaguesTitleDisplayed() {
+        return chooseYourFavouriteLeaguesTitle.isDisplayed();
+    }
+
+    public String getChooseYourFavouriteLeagueTitleText(){
+        return chooseYourFavouriteLeaguesTitle.getText();
+    }
+
+    public List<WebElement> getLeagueTitles() {
+        return leagueTitles;
+    }
+    public void selectLeagueByName(String leagueName) {
+        boolean leagueFound = false;
+        for (int i = 0; i < leagueTitles.size(); i++) {
+            WebElement leagueTitle = leagueTitles.get(i);
+            waitForElement(leagueTitle);
+            if (leagueTitle.getText().equalsIgnoreCase(leagueName)) {
+                leagueTitle.click();
+                logMessage("pass", leagueName + " is selected");
+                leagueFound = true;
+                break;
+            }
+        }
+    }
+
+    public List<WebElement> getSelectedLeagueTitles() {
+        return selectedLeagueTitles;
+    }
+
+    public boolean isLeagueSelected(String leagueName) {
+        List<WebElement> selectedLeagueTitles = getSelectedLeagueTitles();
+        for (int i = 0; i < selectedLeagueTitles.size(); i++) {
+            WebElement selectedLeagueTitle = selectedLeagueTitles.get(i);
+            waitForElement(selectedLeagueTitle);
+            if (selectedLeagueTitle.getText().equalsIgnoreCase(leagueName)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void clickContinueButton() {
+        continueButton.click();
+        logMessage("pass","continue button tapped on choose your favourite league screen");
+    }
 }

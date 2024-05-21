@@ -16,4 +16,12 @@ public class NeverMissAGamePage extends BaseObjects{
         super();
     }
 
+    public String neverMissAGameTitleText(){
+        return waitForElement(neverMissAGameTitle).getText();
+    }
+
+    public void clickContinueButton() {
+        continueButton.click();
+        logMessage("pass","Continue button on never miss a screen tapped");
+    }
 }

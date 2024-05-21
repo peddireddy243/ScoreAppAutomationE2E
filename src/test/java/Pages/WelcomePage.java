@@ -18,6 +18,18 @@ public class WelcomePage extends BaseObjects {
     public WelcomePage(){
         super();
     }
+    public boolean isWelcomeTitleDisplayed() {
+        return welcomeTitleText.isDisplayed();
+    }
+
+    public String getWelcomeTitleText() {
+        return welcomeTitleText.getText();
+    }
+
+    public void clickGetStartedButton() {
+        getStartedButton.click();
+        logMessage("pass", "Get Started button on welcome screen tapped");
+    }
 
 }
 

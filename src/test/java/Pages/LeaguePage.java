@@ -30,4 +30,51 @@ public class LeaguePage extends BaseObjects {
         super();
     }
 
+    public String getLeagueTitle() {
+        return leagueTitle.getText();
+    }
+
+    public List<WebElement> getLeagueTabs() {
+        return leagueTabs;
+    }
+
+    public List<WebElement> getLeagueTitlesList() {
+        return leagueTitlesList;
+    }
+
+    public void clickLeagueTab(String tabName) {
+        for (int i = 0; i < leagueTabs.size(); i++) {
+            WebElement tab = leagueTabs.get(i);
+            if (tab.getText().equalsIgnoreCase(tabName)) {
+                tab.click();
+                return; // Exit the method after clicking the tab
+            }
+        }
+    }
+
+    public String getLeagueConferenceSelectedText() {
+        sleep(3);
+        return leagueConferenceSelectedText.getText();
+    }
+    public void clickConferenceSelectionButton(){
+        waitForElement(leagueConferenceSelectedText).click();
+    }
+
+    public void clickLeagueTitle(String title) {
+        for (int i = 0; i < leagueTitlesList.size(); i++) {
+            WebElement leagueTitle = leagueTitlesList.get(i);
+            if (leagueTitle.getText().equalsIgnoreCase(title)) {
+                leagueTitle.click();
+                return; // Exit the method after clicking the title
+            }
+        }
+    }
+
+    public String getTableTitle() {
+        return waitForElement(tableTitle).getText();
+    }
+
+    public void clickBackButton() {
+        backButton.click();
+    }
 }

@@ -24,4 +24,46 @@ public class ChooseFavouriteTeam extends BaseObjects {
         super();
     }
 
+    public boolean isChooseYourFavouriteTeamTitleDisplayed() {
+        return chooseYourFavouriteTeamTitle.isDisplayed();
+    }
+    public String chooseYourFavouriteTeamTitle() {
+        return chooseYourFavouriteTeamTitle.getText();
+    }
+
+    public List<WebElement> getFavouriteTeamList() {
+        return favouriteTeamList;
+    }
+
+
+
+    public void selectTeamByName(String teamName) {
+        for (int i = 0; i < favouriteTeamList.size(); i++) {
+            WebElement team = favouriteTeamList.get(i);
+            waitForElement(team);
+            if (team.getText().equalsIgnoreCase(teamName)) {
+                team.click();
+                break;
+            }
+        }
+    }
+
+    public List<WebElement> getSelectedTeamTitle() {
+        return selectedTeamTitle;
+    }
+
+    public boolean isTeamSelected(String teamInitials) {
+        for (int i = 0; i < selectedTeamTitle.size(); i++) {
+            WebElement team = selectedTeamTitle.get(i);
+            waitForElement(team,3);
+            if (team.getText().equalsIgnoreCase(teamInitials)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void clickContinueButton() {
+        continueButton.click();
+    }
 }

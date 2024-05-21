@@ -24,4 +24,37 @@ public class MainMenuPage extends BaseObjects {
         super();
     }
 
+    public void clickProfileButton() {
+        profileButton.click();
+    }
+
+    public List<WebElement> getBottomMenuTabText() {
+        return bottomMenuTabText;
+    }
+
+    public List<WebElement> getSelectedFavouriteTeamOrLeague() {
+        return selectedFavouriteTeamOrLeague;
+    }
+
+    public boolean isProfileButtonDisplayed(){
+        return isElementDisplayed(profileButton, "Profile button on top left corner displayed");
+    }
+
+    public String getBottomMenuTabText(int index) {
+        return bottomMenuTabText.get(index).getText();
+    }
+    public String getFavouritesTabText(){
+        return favouritesTabText.getText();
+    }
+
+    public void tapLeagueTeamFromFavourites(String leagueTeamSelected) {
+        for (int i = 0; i < selectedFavouriteTeamOrLeague.size(); i++) {
+            WebElement leagueTeamTitle = selectedFavouriteTeamOrLeague.get(i);
+            if (leagueTeamTitle.getText().equalsIgnoreCase(leagueTeamSelected)) {
+                leagueTeamTitle.click();
+                logMessage("pass", "League or team tapped from favourites: " + leagueTeamSelected);
+                break; // Exit the loop after clicking the element
+            }
+        }
+    }
 }
