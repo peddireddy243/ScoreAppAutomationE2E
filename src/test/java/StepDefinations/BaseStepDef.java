@@ -27,6 +27,7 @@ public class BaseStepDef {
         logger.info("Initiated setup for scenario: " + scenario.getName());
         try {
             launchApp();
+            logger.info("app launched");
 
         } catch (IOException e) {
             throw new RuntimeException(e);
