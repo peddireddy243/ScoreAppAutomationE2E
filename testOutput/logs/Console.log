@@ -1,0 +1,452 @@
+[02:37:24.060] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.062] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.063] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.063] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.064] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.064] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.064] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.064] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.069] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[02:37:24.085] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+[02:37:24.087] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.087] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.088] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.089] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.089] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.089] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.091] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.091] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.093] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.093] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.093] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.093] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.094] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.094] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.095] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.095] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.096] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.096] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.096] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:37:24.096] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:37:24.098] [INFO ] [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/rajender/IdeaProjects/ScoreAppAutomationE2E/src/test/resources/TestNg.xml
+
+[02:37:24.113] [INFO ] [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[02:37:24.125] [INFO ] [main] org.testng.internal.Utils - [TestRunner] Starting executor for test CucumberTest with time out:2147483647 milliseconds.
+[02:37:24.457] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Server started at URL: http://127.0.0.1:4723/
+[02:37:24.459] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - is Server started = true
+[02:37:28.884] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Initiated setup for scenario: Validate NCAAF Standings and Team Title in Standings Table
+[02:37:31.625] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'WELCOME' Vs 'WELCOME'
+[02:37:32.505] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Get Started button on welcome screen tapped
+[02:37:33.087] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite leagues' Vs 'Choose your favorite leagues'
+[02:37:33.920] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - NCAA Football is selected
+[02:37:34.786] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite league selected
+[02:37:35.094] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - continue button tapped on choose your favourite league screen
+[02:37:36.055] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on tailored content prompt tapped
+[02:37:36.479] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite teams' Vs 'Choose your favorite teams'
+[02:37:37.736] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite team selected
+[02:37:38.937] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Never miss a game' Vs 'Never miss a game'
+[02:37:39.244] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Continue button on never miss a screen tapped
+[02:37:40.177] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Introducing the Score Messaging prompt screen is displayed
+[02:37:40.481] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on Email Signup prompt tapped
+[02:37:41.224] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Send Notification dialogue prompt is displayed
+[02:37:42.573] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Don't Allow button on Send Notification prompt tapped
+[02:37:43.011] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - TheScore Bet Download Prompt displayed is displayed
+[02:37:43.758] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Close button on theScore Bet Download prompt tapped
+[02:37:44.523] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Profile button on top left corner displayed is displayed
+[02:37:45.273] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Favorites' Vs 'Favorites'
+[02:37:45.984] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - User landed on main menu screen
+[02:37:46.398] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - League or team tapped from favourites: NCAAF
+[02:37:48.633] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'NCAA Football' Vs 'NCAA Football'
+[02:37:55.134] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'ACC' Vs 'ACC'
+[02:37:55.481] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Conference selection is successful
+[02:37:56.999] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Favorites' Vs 'Favorites'
+[02:37:57.729] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Profile button on top left corner displayed is displayed
+[02:37:58.452] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Profile button on Main menu screen displayed
+[02:37:58.452] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Scenario: Validate NCAAF Standings and Team Title in Standings Table completed. Tearing down...
+[02:37:58.651] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Appium server stopped
+[02:37:58.708] [INFO ] [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2b52c0d6: 0 ms
+[02:43:31.283] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.285] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.286] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.286] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.286] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.286] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.287] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.287] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.291] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[02:43:31.300] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+[02:43:31.301] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.301] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.302] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.302] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.302] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.302] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.303] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.303] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.304] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.304] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.304] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.304] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.304] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.304] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.305] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.305] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.306] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.306] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.306] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:31.306] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:31.308] [INFO ] [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/rajender/IdeaProjects/ScoreAppAutomationE2E/src/test/resources/TestNg.xml
+
+[02:43:31.316] [INFO ] [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[02:43:31.323] [INFO ] [main] org.testng.internal.Utils - [TestRunner] Starting executor for test CucumberTest with time out:2147483647 milliseconds.
+[02:43:33.274] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Server started at URL: http://127.0.0.1:53719/
+[02:43:33.278] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - is Server started = true
+[02:43:33.653] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Scenario: Validate NCAAF Standings and Team Title in Standings Table completed. Tearing down...
+[02:43:33.710] [INFO ] [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7de0c6ae: 0 ms
+[02:43:49.183] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.185] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.186] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.186] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.186] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.186] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.187] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.187] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.190] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[02:43:49.198] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+[02:43:49.199] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.199] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.200] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.200] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.200] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.200] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.201] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.201] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.201] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.201] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.201] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.202] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.202] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.202] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.202] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.202] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.203] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.203] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.203] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:43:49.203] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:43:49.206] [INFO ] [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/rajender/IdeaProjects/ScoreAppAutomationE2E/src/test/resources/TestNg.xml
+
+[02:43:49.214] [INFO ] [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+[02:43:49.220] [INFO ] [main] org.testng.internal.Utils - [TestRunner] Starting executor for test CucumberTest with time out:2147483647 milliseconds.
+[02:43:50.527] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Server started at URL: http://127.0.0.1:53754/
+[02:43:50.530] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - is Server started = true
+[02:43:50.845] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Scenario: Validate NCAAF Standings and Team Title in Standings Table completed. Tearing down...
+[02:43:50.891] [INFO ] [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5dcbb60: 0 ms
+[02:44:23.333] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.335] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.336] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.336] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.336] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.336] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.337] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.337] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.340] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[02:44:23.348] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+[02:44:23.349] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.349] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.350] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.350] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.350] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.350] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.351] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.351] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.351] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.351] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.352] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.352] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.352] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.352] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.352] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.353] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.353] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.353] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.353] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:44:23.353] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:44:23.355] [INFO ] [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/rajender/IdeaProjects/ScoreAppAutomationE2E/src/test/resources/TestNg.xml
+
+[02:44:23.363] [INFO ] [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[02:44:23.372] [INFO ] [main] org.testng.internal.Utils - [TestRunner] Starting executor for test CucumberTest with time out:2147483647 milliseconds.
+[02:44:25.330] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Server started at URL: http://127.0.0.1:53797/
+[02:44:25.332] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - is Server started = true
+[02:44:25.597] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Scenario: Validate NCAAF Standings and Team Title in Standings Table completed. Tearing down...
+[02:44:25.649] [INFO ] [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4a9cc6cb: 0 ms
+[02:45:56.908] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.910] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.911] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.911] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.911] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.911] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.912] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.912] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.915] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[02:45:56.922] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+[02:45:56.922] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.923] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.923] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.923] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.924] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.924] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.924] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.925] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.925] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.925] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.925] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.925] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.925] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.925] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.926] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.926] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.927] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.927] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.927] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:45:56.927] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:45:56.928] [INFO ] [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/rajender/IdeaProjects/ScoreAppAutomationE2E/src/test/resources/TestNg.xml
+
+[02:45:56.936] [INFO ] [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+[02:45:56.943] [INFO ] [main] org.testng.internal.Utils - [TestRunner] Starting executor for test CucumberTest with time out:2147483647 milliseconds.
+[02:45:58.876] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Server started at URL: http://127.0.0.1:4723/
+[02:45:58.878] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - is Server started = true
+[02:46:04.786] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Initiated setup for scenario: Validate NCAAF Standings and Team Title in Standings Table
+[02:46:07.691] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'WELCOME' Vs 'WELCOME'
+[02:46:08.505] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Get Started button on welcome screen tapped
+[02:46:09.258] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite leagues' Vs 'Choose your favorite leagues'
+[02:46:10.010] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - NCAA Football is selected
+[02:46:11.072] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite league selected
+[02:46:11.385] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - continue button tapped on choose your favourite league screen
+[02:46:12.376] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on tailored content prompt tapped
+[02:46:12.740] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite teams' Vs 'Choose your favorite teams'
+[02:46:14.114] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite team selected
+[02:46:15.279] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Never miss a game' Vs 'Never miss a game'
+[02:46:15.624] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Continue button on never miss a screen tapped
+[02:46:16.531] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Introducing the Score Messaging prompt screen is displayed
+[02:46:16.822] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on Email Signup prompt tapped
+[02:46:17.452] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Send Notification dialogue prompt is displayed
+[02:46:17.891] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Don't Allow button on Send Notification prompt tapped
+[02:46:18.767] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - TheScore Bet Download Prompt displayed is displayed
+[02:46:19.516] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Close button on theScore Bet Download prompt tapped
+[02:46:20.271] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Profile button on top left corner displayed is displayed
+[02:46:21.050] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Favorites' Vs 'Favorites'
+[02:46:21.760] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - User landed on main menu screen
+[02:46:22.271] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - League or team tapped from favourites: NCAAF
+[02:46:24.947] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'NCAA Football' Vs 'NCAA Football'
+[02:46:30.998] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Scenario: Validate NCAAF Standings and Team Title in Standings Table completed. Tearing down...
+[02:46:31.352] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Appium server stopped
+[02:46:31.406] [INFO ] [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@a486d78: 0 ms
+[02:56:31.894] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.896] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.897] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.897] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.898] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.898] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.898] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.898] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.901] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[02:56:31.909] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+[02:56:31.909] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.910] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.910] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.910] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.911] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.911] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.912] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.912] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.912] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.912] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.912] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.913] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.913] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.913] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.913] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.913] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.914] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.914] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.914] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[02:56:31.914] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[02:56:31.916] [INFO ] [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/rajender/IdeaProjects/ScoreAppAutomationE2E/src/test/resources/TestNg.xml
+
+[02:56:31.924] [INFO ] [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+[02:56:31.931] [INFO ] [main] org.testng.internal.Utils - [TestRunner] Starting executor for test CucumberTest with time out:2147483647 milliseconds.
+[02:56:33.889] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Server started at URL: http://127.0.0.1:4723/
+[02:56:33.891] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - is Server started = true
+[02:56:39.440] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Initiated setup for scenario: Validate NCAAF Standings and Team Title in Standings Table
+[02:56:41.373] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'WELCOME' Vs 'WELCOME'
+[02:56:41.460] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Get Started button on welcome screen tapped
+[02:56:42.674] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite leagues' Vs 'Choose your favorite leagues'
+[02:56:43.159] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - NCAA Football is selected
+[02:56:44.263] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite league selected
+[02:56:44.340] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - continue button tapped on choose your favourite league screen
+[02:56:45.140] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on tailored content prompt tapped
+[02:56:45.707] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite teams' Vs 'Choose your favorite teams'
+[02:56:46.896] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite team selected
+[02:56:47.841] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Never miss a game' Vs 'Never miss a game'
+[02:56:47.907] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Continue button on never miss a screen tapped
+[02:56:48.675] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Introducing the Score Messaging prompt screen is displayed
+[02:56:48.724] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on Email Signup prompt tapped
+[02:56:49.328] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Send Notification dialogue prompt is displayed
+[02:56:49.411] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Don't Allow button on Send Notification prompt tapped
+[02:56:50.016] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - TheScore Bet Download Prompt displayed is displayed
+[02:56:50.092] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Close button on theScore Bet Download prompt tapped
+[02:56:51.098] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Profile button on top left corner displayed is displayed
+[02:56:51.138] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Favorites' Vs 'Favorites'
+[02:56:51.139] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - User landed on main menu screen
+[02:56:52.665] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - League or team tapped from favourites: NCAAF
+[02:56:52.711] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'NCAA Football' Vs 'NCAA Football'
+[02:56:59.713] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'ACC' Vs 'ACC'
+[02:56:59.714] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Conference selection is successful
+[02:57:00.915] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Favorites' Vs 'Favorites'
+[02:57:00.934] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Profile button on top left corner displayed is displayed
+[02:57:00.935] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Profile button on Main menu screen displayed
+[02:57:00.936] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Scenario: Validate NCAAF Standings and Team Title in Standings Table completed. Tearing down...
+[02:57:01.119] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Appium server stopped
+[02:57:01.168] [INFO ] [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5dcbb60: 0 ms
+[03:05:48.514] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.517] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.518] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.518] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.518] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.518] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.519] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.519] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.523] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[03:05:48.533] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+[03:05:48.534] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.535] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.535] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.535] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.535] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.536] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.537] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.537] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.537] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.537] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.537] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.538] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.538] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.538] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.540] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.540] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.540] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.540] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.540] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:05:48.541] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:05:48.542] [INFO ] [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/rajender/IdeaProjects/ScoreAppAutomationE2E/src/test/resources/TestNg.xml
+
+[03:05:48.553] [INFO ] [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+[03:05:48.560] [INFO ] [main] org.testng.internal.Utils - [TestRunner] Starting executor for test CucumberTest with time out:2147483647 milliseconds.
+[03:05:50.514] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Server started at URL: http://127.0.0.1:4723/
+[03:05:50.516] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - is Server started = true
+[03:05:56.070] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Initiated setup for scenario: Validate NCAAF Standings and Team Title in Standings Table
+[03:05:57.987] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'WELCOME' Vs 'WELCOME'
+[03:05:58.056] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Get Started button on welcome screen tapped
+[03:05:59.379] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite leagues' Vs 'Choose your favorite leagues'
+[03:05:59.891] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - NCAA Football is selected
+[03:06:00.988] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite league selected
+[03:06:01.073] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - continue button tapped on choose your favourite league screen
+[03:06:01.922] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on tailored content prompt tapped
+[03:06:02.526] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite teams' Vs 'Choose your favorite teams'
+[03:06:03.605] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite team selected
+[03:06:04.597] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Never miss a game' Vs 'Never miss a game'
+[03:06:04.659] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Continue button on never miss a screen tapped
+[03:06:05.427] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Introducing the Score Messaging prompt screen is displayed
+[03:06:05.491] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on Email Signup prompt tapped
+[03:06:06.216] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Send Notification dialogue prompt is displayed
+[03:06:07.241] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Don't Allow button on Send Notification prompt tapped
+[03:06:09.258] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - TheScore Bet Download Prompt displayed is displayed
+[03:06:09.306] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Close button on theScore Bet Download prompt tapped
+[03:06:09.867] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Profile button on top left corner displayed is displayed
+[03:06:09.910] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Favorites' Vs 'Favorites'
+[03:06:09.910] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - User landed on main menu screen
+[03:06:12.990] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - League or team tapped from favourites: NCAAF
+[03:06:13.071] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'NCAA Football' Vs 'NCAA Football'
+[03:06:19.226] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'ACC' Vs 'ACC'
+[03:06:19.226] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Conference selection is successful
+[03:06:20.556] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Favorites' Vs 'Favorites'
+[03:06:20.578] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Profile button on top left corner displayed is displayed
+[03:06:20.579] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Profile button on Main menu screen displayed
+[03:06:20.580] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Scenario: Validate NCAAF Standings and Team Title in Standings Table completed. Tearing down...
+[03:06:20.967] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Appium server stopped
+[03:06:21.014] [INFO ] [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7de0c6ae: 0 ms
+[03:10:17.306] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.310] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[03:10:17.311] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.311] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.312] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.312] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.312] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.312] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.318] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[03:10:17.327] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+[03:10:17.328] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.328] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.329] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.329] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.329] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.329] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.330] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.330] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.331] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.331] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.331] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.332] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.332] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.332] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.333] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.333] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.333] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.333] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.333] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[03:10:17.334] [INFO ] [main] org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[03:10:17.335] [INFO ] [main] org.testng.internal.Utils - [TestNG] Running:
+  /Users/rajender/IdeaProjects/ScoreAppAutomationE2E/src/test/resources/TestNg.xml
+
+[03:10:17.345] [INFO ] [main] org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+[03:10:17.353] [INFO ] [main] org.testng.internal.Utils - [TestRunner] Starting executor for test CucumberTest with time out:2147483647 milliseconds.
+[03:10:19.327] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Server started at URL: http://127.0.0.1:4723/
+[03:10:19.329] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - is Server started = true
+[03:10:24.940] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Initiated setup for scenario: Validate NCAAF Standings and Team Title in Standings Table
+[03:10:27.630] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'WELCOME' Vs 'WELCOME'
+[03:10:28.399] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Get Started button on welcome screen tapped
+[03:10:29.308] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite leagues' Vs 'Choose your favorite leagues'
+[03:10:30.065] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - NCAA Football is selected
+[03:10:31.133] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite league selected
+[03:10:31.433] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - continue button tapped on choose your favourite league screen
+[03:10:32.424] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on tailored content prompt tapped
+[03:10:32.843] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Choose your favorite teams' Vs 'Choose your favorite teams'
+[03:10:34.164] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Favourite team selected
+[03:10:35.354] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Never miss a game' Vs 'Never miss a game'
+[03:10:35.754] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Continue button on never miss a screen tapped
+[03:10:36.649] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Introducing the Score Messaging prompt screen is displayed
+[03:10:36.989] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - May be later button on Email Signup prompt tapped
+[03:10:37.549] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Send Notification dialogue prompt is displayed
+[03:10:38.070] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Don't Allow button on Send Notification prompt tapped
+[03:10:38.839] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - TheScore Bet Download Prompt displayed is displayed
+[03:10:39.696] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Close button on theScore Bet Download prompt tapped
+[03:10:40.453] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Profile button on top left corner displayed is displayed
+[03:10:41.222] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Favorites' Vs 'Favorites'
+[03:10:41.932] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - User landed on main menu screen
+[03:10:45.306] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - League or team tapped from favourites: NCAAF
+[03:10:46.853] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'NCAA Football' Vs 'NCAA Football'
+[03:10:53.282] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'ACC' Vs 'ACC'
+[03:10:53.561] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Conference selection is successful
+[03:10:55.347] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Verification Success : 'Favorites' Vs 'Favorites'
+[03:10:56.082] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Profile button on top left corner displayed is displayed
+[03:10:56.797] [INFO ] [TestNG-test=CucumberTest-1] Pages.LeaguePage - Success : Profile button on Main menu screen displayed
+[03:10:56.797] [INFO ] [TestNG-test=CucumberTest-1] StepDefinitions.BaseStepDef - Scenario: Validate NCAAF Standings and Team Title in Standings Table completed. Tearing down...
+[03:10:57.192] [INFO ] [TestNG-test=CucumberTest-1] TestBase.AppiumServerManager - Appium server stopped
+[03:10:57.241] [INFO ] [main] org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3b9d6699: 0 ms

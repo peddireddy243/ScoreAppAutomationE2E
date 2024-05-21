@@ -71,7 +71,7 @@ public class LeaguePage extends BaseObjects {
     }
 
     public String getTableTitle() {
-        return waitForElement(tableTitle).getText();
+        return waitForElement(tableTitle,3).getText();
     }
 
     public void clickBackButton() {

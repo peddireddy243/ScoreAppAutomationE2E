@@ -58,8 +58,10 @@ public class BaseObjects {
     public static boolean isElementDisplayed (WebElement element, String message){
         try {
             boolean displayed = element.isDisplayed();
+            logMessage("pass", message + " is displayed");
             return displayed;
         } catch (WebDriverException e) {
+            logMessage("fail", message + " is not displayed");
             Assert.fail("Element not found: " + message);
             return false;
         }
@@ -68,8 +70,10 @@ public class BaseObjects {
     public static boolean isElementEnabled (WebElement element, String message){
         try {
             boolean enabled = element.isEnabled();
+            logMessage("pass", message + " is enabled");
             return enabled;
         } catch (WebDriverException e) {
+            logMessage("fail", message + " is not enabled");
             Assert.fail("Element not found: " + message);
             return false;
         }
@@ -78,8 +82,10 @@ public class BaseObjects {
     public static boolean isElementSelected (WebElement element, String message){
         try {
             boolean selected = element.isSelected();
+            logMessage("pass", message + " is selected");
             return selected;
         } catch (WebDriverException e) {
+            logMessage("fail", message + " is not selected");
             Assert.fail("Element not found: " + message);
             return false;
         }

@@ -26,7 +26,6 @@ public class LeagueStandingStepDef  extends BaseObjects{
     public void iHaveLandedOnWelcomeScreenAndContinued() {
         Assertions.assertEquals(welcomePage.getWelcomeTitleText(), "WELCOME");
         welcomePage.clickGetStartedButton();
-
     }
 
     @And("I have selected a favorite league {string} verify selection as {string} and continued")

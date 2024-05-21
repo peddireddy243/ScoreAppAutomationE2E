@@ -6,8 +6,6 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class ExtentReportManager {
 
@@ -24,7 +22,6 @@ public class ExtentReportManager {
 
 
     private static ExtentReports createInstance() {
-        String timestamp = new SimpleDateFormat("MMddHHmm").format(new Date());
 
         ExtentSparkReporter sparkReporter = new ExtentSparkReporter(Constants.REPORT_DIR +"AutomatonReport.html");
         sparkReporter.config().setTheme(Theme.STANDARD);
@@ -46,5 +43,13 @@ public class ExtentReportManager {
 
     public static ExtentTest getTest() {
         return test.get();
+    }
+
+    public static void setTest(ExtentTest extentTest) {
+        test.set(extentTest);
+    }
+
+    public static void removeTest() {
+        test.remove();
     }
 }
