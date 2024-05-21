@@ -1,0 +1,17 @@
+{
+  "Android": {
+    "platformName": "Android",
+    "platformVersion": "13.0",
+    "deviceName": "emulator-5554",
+    "automationName": "UiAutomator2",
+    "noReset": "false"
+  },
+  "iOS": {
+    "platformName": "iOS",
+    "platformVersion": "14.0",
+    "UDID": "",
+    "deviceName": "iPhone Simulator",
+    "bundleId": "com.example.iosapp",
+    "automationName": "XCUITest"
+  }
+}
