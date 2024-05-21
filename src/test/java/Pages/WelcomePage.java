@@ -1,10 +1,11 @@
 package Pages;
 
+import Utilities.BaseObjects;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.WebElement;
 
-public class WelcomePage {
+public class WelcomePage extends BaseObjects {
 
     @AndroidFindBy(xpath = "//android.widget.TextView[contains(@resource-id,'txt_welcome')]")
     @iOSXCUITFindBy(iOSNsPredicate ="name == 'WELCOME'")
@@ -13,6 +14,10 @@ public class WelcomePage {
     @AndroidFindBy(xpath = "//android.view.ViewGroup[contains(@resource-id,'btn_primary')]")
     @iOSXCUITFindBy(iOSNsPredicate = "name == 'GET STARTED'")
     private WebElement getStartedButton;
+
+    public WelcomePage(){
+        super();
+    }
 
 }
 

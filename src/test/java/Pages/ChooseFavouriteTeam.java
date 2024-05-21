@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class ChooseFavouriteTeam {
+public class ChooseFavouriteTeam extends BaseObjects {
     @AndroidFindBy(xpath = "//android.widget.TextView[contains(@resource-id,\"title_onboarding\") and contains(@text,'teams')]")
     private WebElement chooseYourFavouriteTeamTitle;
 
@@ -19,5 +19,9 @@ public class ChooseFavouriteTeam {
 
     @AndroidFindBy(xpath = "//android.view.ViewGroup[contains(@resource-id,\"btn_primary\")]")
     private WebElement continueButton;
+
+    public ChooseFavouriteTeam(){
+        super();
+    }
 
 }

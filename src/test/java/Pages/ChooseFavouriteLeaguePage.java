@@ -1,11 +1,12 @@
 package Pages;
 
+import Utilities.BaseObjects;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class ChooseFavouriteLeaguePage {
+public class ChooseFavouriteLeaguePage extends BaseObjects {
 
     // Android locators
     @AndroidFindBy(xpath = "//android.widget.TextView[contains(@resource-id,'title_onboarding') and contains(@text,'leagues')]")
@@ -20,5 +21,8 @@ public class ChooseFavouriteLeaguePage {
     @AndroidFindBy(xpath = "//android.view.ViewGroup[contains(@resource-id,'btn_primary')]")
     private WebElement continueButton;
 
+    public ChooseFavouriteLeaguePage(){
+        super();
+    }
 
 }

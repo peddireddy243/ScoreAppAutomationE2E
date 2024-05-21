@@ -1,9 +1,10 @@
 package Pages;
 
+import Utilities.BaseObjects;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;
 
-public class PromptsPage{
+public class PromptsPage extends BaseObjects {
 
     @AndroidFindBy(xpath = "//android.widget.TextView[contains(@resource-id,'location_title')]")
     private WebElement tailoredContentTitle;
@@ -29,4 +30,7 @@ public class PromptsPage{
     @AndroidFindBy(xpath = "//android.widget.ImageView[contains(@resource-id,'dismiss_modal')]")
     private WebElement theScoreBetCloseButton;
 
+    public PromptsPage(){
+        super();
+    }
 }

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class LeaguePage {
+public class LeaguePage extends BaseObjects {
 
     @AndroidFindBy(xpath = "//android.widget.TextView[contains(@resource-id,'titleTextView')]")
     private WebElement leagueTitle;
@@ -25,5 +25,9 @@ public class LeaguePage {
 
     @AndroidFindBy(accessibility = "Navigate up")
     private WebElement backButton;
+
+    public LeaguePage(){
+        super();
+    }
 
 }
