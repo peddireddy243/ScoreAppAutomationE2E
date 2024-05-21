@@ -1,26 +1,35 @@
 package StepDefinitions;
 
 import TestBase.AppDriver;
+import TestBase.AppiumServerManager;
+import TestBase.ExtentReportManager;
+import Listeners.TestListener;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
-import java.util.logging.Logger;
 
-public class BaseStepDef {
+public class BaseStepDef  {
 
-    private static final Logger logger = Logger.getLogger(BaseStepDef.class.getName());
+    private static final Logger logger = LogManager.getLogger(BaseStepDef.class);
 
+    protected static ExtentTest test = ExtentReportManager.getTest();
     @Before
-    @Parameters({"platformName", "remoteHost"})
-    public void setUp(String platformName, @Optional String remoteHost, Scenario scenario) {
-        logger.info("Initiated setup for scenario: " + scenario.getName());
+    public void setUp(Scenario scenario) {
 
+        String platformName = TestListener.platformName;
+        String localHost = TestListener.localHost;
         try {
-            AppDriver.launchApp(platformName, remoteHost);
+            AppiumServerManager.start();
+            AppDriver.launchApp(platformName, localHost);
+            logger.info("Initiated setup for scenario: " + scenario.getName());
+            ExtentReportManager.createTest(scenario.getName(), scenario.getId());
+            test = ExtentReportManager.getTest();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -29,7 +38,13 @@ public class BaseStepDef {
     @After
     public void tearDown(Scenario scenario) {
         logger.info("Scenario: " + scenario.getName() + " completed. Tearing down...");
+        if (scenario.isFailed()) {
+            test.log(Status.FAIL, "Scenario failed: " + scenario.getName());
+        } else {
+            test.log(Status.PASS, "Scenario passed: " + scenario.getName());
+        }
+        ExtentReportManager.removeTest();
         AppDriver.quitDriver();
+        AppiumServerManager.stop();
     }
-
 }

@@ -47,4 +47,12 @@ public class ExtentReportManager {
     public static ExtentTest getTest() {
         return test.get();
     }
+
+    public static void setTest(ExtentTest extentTest) {
+        test.set(extentTest);
+    }
+
+    public static void removeTest() {
+        test.remove();
+    }
 }

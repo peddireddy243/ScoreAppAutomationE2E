@@ -35,7 +35,7 @@ public class BaseObjects {
         test = ExtentReportManager.getTest();
         log = LogManager.getLogger(this.getClass());
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(15)); // Initialize the WebDriverWait here
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Initialize the WebDriverWait here
     }
 
     public void sleep(long timeInSeconds) {
