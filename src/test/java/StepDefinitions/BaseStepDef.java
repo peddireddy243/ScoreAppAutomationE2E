@@ -1,4 +1,4 @@
-package StepDefinations;
+package StepDefinitions;
 
 import TestBase.AppDriver;
 import io.cucumber.java.After;

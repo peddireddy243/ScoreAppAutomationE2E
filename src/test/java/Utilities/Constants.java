@@ -14,4 +14,9 @@ public class Constants {
     public static final String REPORT_DIR = OUTPUT_DIRECTORY + DATE_NOW + "_report/";
     public static final String RESOURCES_PATH = USER_DIR+ "/src/test/resources/";
     public static final String SCREENSHOT_PATH = REPORT_DIR + "/";
+
+
+
+    //Test required constants
+    public static String FAV_LEAGUE = "Fav League";
 }

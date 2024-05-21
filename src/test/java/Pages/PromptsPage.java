@@ -33,4 +33,43 @@ public class PromptsPage extends BaseObjects {
     public PromptsPage(){
         super();
     }
+
+    public boolean isTailoredContentTitleDisplayed() {
+        return tailoredContentTitle.isDisplayed();
+    }
+
+    public void clickMaybeLaterButton() {
+        maybeLaterButton.click();
+        logMessage("pass","May be later button on tailored content prompt tapped");
+    }
+
+    public boolean isTheScoreMessagingTitleDisplayed() {
+        return isElementDisplayed(theScoreMessagingTitle,"Introducing the Score Messaging prompt screen");
+    }
+
+    public void clickEmailSignUpMaybeLaterButton() {
+        emailSignUpMaybeLaterButton.click();
+        logMessage("pass","May be later button on Email Signup prompt tapped");
+
+    }
+
+    public boolean isSendNotificationsAlertTitleDisplayed() {
+        return isElementDisplayed(sendNotificationsAlertTitle,"Send Notification dialogue prompt");
+    }
+
+    public void clickDoNotAllowButton() {
+        doNotAllowButton.click();
+        logMessage("pass","Don't Allow button on Send Notification prompt tapped");
+
+    }
+
+    public boolean isTheScoreBetTitleDisplayed() {
+        return isElementDisplayed(theScoreBetTitle,"TheScore Bet Download Prompt displayed");
+    }
+
+    public void clickTheScoreBetCloseButton() {
+        theScoreBetCloseButton.click();
+        logMessage("pass","Close button on theScore Bet Download prompt tapped");
+
+    }
 }

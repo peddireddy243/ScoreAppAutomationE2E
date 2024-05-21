@@ -14,6 +14,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -35,6 +36,23 @@ public class BaseObjects {
         log = LogManager.getLogger(this.getClass());
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
         wait = new WebDriverWait(driver, Duration.ofSeconds(15)); // Initialize the WebDriverWait here
+    }
+
+    public void sleep(long timeInSeconds) {
+        try {
+            Thread.sleep(timeInSeconds * 1000);
+        } catch (InterruptedException e) {
+            log.error("Thread sleep was interrupted!", e);
+        }
+    }
+
+    public WebElement waitForElement(WebElement element) {
+        return wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public WebElement waitForElement(WebElement element, int timeoutInSeconds) {
+        return new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds))
+                .until(ExpectedConditions.visibilityOf(element));
     }
 
     public static boolean isElementDisplayed (WebElement element, String message){

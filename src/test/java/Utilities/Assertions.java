@@ -1,6 +1,6 @@
 package Utilities;
 
-import StepDefinations.BaseStepDef;
+import StepDefinitions.BaseStepDef;
 import org.testng.Assert;
 
 import java.util.logging.Logger;
