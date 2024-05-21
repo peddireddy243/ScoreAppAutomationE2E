@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CucumberSuite" verbose ="2" parallel="methods">
+
+    <!-- Parallel Execution Configuration -->
+    <test name="CucumberTest" parallel="classes" verbose="2">
+        <!-- Parameters -->
+        <parameter name="platformName" value="Android"/>
+        <parameter name="localHost" value="http://127.0.0.1:4723/"/>
+        <classes>
+            <class name="Runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>
