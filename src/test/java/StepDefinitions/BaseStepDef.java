@@ -1,9 +1,9 @@
 package StepDefinitions;
 
+import Runners.TestRunner;
 import TestBase.AppDriver;
 import TestBase.AppiumServerManager;
 import TestBase.ExtentReportManager;
-import Listeners.TestListener;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import io.cucumber.java.After;
@@ -22,8 +22,8 @@ public class BaseStepDef  {
     @Before
     public void setUp(Scenario scenario) {
 
-        String platformName = TestListener.platformName;
-        String localHost = TestListener.localHost;
+        String platformName = TestRunner.platformName;
+        String localHost = TestRunner.localHost;
         try {
             AppiumServerManager.start();
             AppDriver.launchApp(platformName, localHost);
@@ -44,6 +44,7 @@ public class BaseStepDef  {
             test.log(Status.PASS, "Scenario passed: " + scenario.getName());
         }
         ExtentReportManager.removeTest();
+        ExtentReportManager.getInstance().flush();
         AppDriver.quitDriver();
         AppiumServerManager.stop();
     }

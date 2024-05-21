@@ -4,6 +4,8 @@ import io.cucumber.tagexpressions.TagExpressionParser;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.PickleWrapper;
+import io.cucumber.testng.TestNGCucumberRunner;
+import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -16,16 +18,20 @@ import java.util.stream.Collectors;
         features = "src/test/java/Features",
         glue = {"StepDefinitions"},
         plugin = {"pretty",
-                "html:target/TestOutput/cucumber-reports.html",
-                "json:target/TestOutput/CucumberTestReport.json",
+                "html:testOutput/cucumberReport/cucumber-reports.html",
+                "json:TestOutput/cucumberReport/CucumberTestReport.json",
         },
         monochrome = true)
 public class TestRunner extends AbstractTestNGCucumberTests {
 
+        public static String platformName;
+        public static String localHost;
         @Parameters({"tags"})
         @BeforeClass
-        public void runCucumberTests(String tags) {
+        public void runCucumberTests(String tags, ITestContext context) {
                 System.setProperty("cucumber.filter.tags", tags);
+                platformName = context.getCurrentXmlTest().getParameter("platformName");
+                localHost = context.getCurrentXmlTest().getParameter("localHost");
         }
 
         @Override
@@ -41,5 +47,4 @@ public class TestRunner extends AbstractTestNGCucumberTests {
                         return scenarios;
                 }
         }
-
 }

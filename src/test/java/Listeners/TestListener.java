@@ -14,16 +14,12 @@ import org.testng.ITestResult;
 public class TestListener implements ITestListener {
 
     private static final Logger logger = LogManager.getLogger(TestListener.class);
-    public static String platformName;
-    public static String localHost;
+
     public static AppiumDriver driver = AppDriver.getCurrentDriver();
 
     @Override
     public void onStart(ITestContext context) {
         logger.info("Test Suite started: " + context.getName());
-        platformName = context.getCurrentXmlTest().getParameter("platformName");
-        localHost = context.getCurrentXmlTest().getParameter("localHost");
-
     }
 
     @Override

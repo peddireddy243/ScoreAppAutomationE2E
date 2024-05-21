@@ -58,7 +58,7 @@ public class PromptsPage extends BaseObjects {
     }
 
     public void clickDoNotAllowButton() {
-        doNotAllowButton.click();
+        waitForElement(doNotAllowButton).click();
         logMessage("pass","Don't Allow button on Send Notification prompt tapped");
 
     }

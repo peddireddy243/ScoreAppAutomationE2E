@@ -8,6 +8,7 @@
         <!-- Parameters -->
         <parameter name="platformName" value="Android"/>
         <parameter name="localHost" value="http://127.0.0.1:4723/"/>
+        <parameter name="tags" value="@Task1"/>
         <classes>
             <class name="Runners.TestRunner"/>
         </classes>

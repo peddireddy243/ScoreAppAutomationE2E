@@ -19,7 +19,7 @@ public class AppiumServerManager {
                 .withAppiumJS(new File(appiumServerPath()))
                 .withIPAddress("127.0.0.1")
                 .usingPort(4723)
-                .withLogFile(new File("TestOutput/AppiumLog.txt"))
+                .withLogFile(new File("testOutput/AppiumLog.txt"))
                 .withArgument(GeneralServerFlag.LOG_LEVEL,"error")
                 .build();
     }
@@ -32,13 +32,9 @@ public class AppiumServerManager {
     }
 
     public static void start() {
-        if(getInstance().isRunning()){
-            logger.info("Server already running");
-        } else {
-            getInstance().start();
-            logger.info("Server started at URL: " + server.getUrl());
-            logger.info("is Server started = " + server.isRunning());
-        }
+        getInstance().start();
+        logger.info("Server started at URL: " + server.getUrl());
+        logger.info("is Server started = " + server.isRunning());
     }
 
     public static void stop() {
